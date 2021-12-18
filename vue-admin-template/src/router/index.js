@@ -89,6 +89,7 @@ export const constantRoutes = [
 
 const createRouter = () =>
   new Router({
+    // mode: 'history',
     // mode: 'history', // require service support
     scrollBehavior: () => ({ y: 0 }),
     // 之后会把动态和静态的路由分开
